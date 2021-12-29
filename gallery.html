@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav class="blue">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo">TravelPhil</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+               <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="popular.html">Popular Places</a>
+                  </li>
+                  <li class="active">
+                    <a href="gallery.html">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <ul class="sidenav" id="mobile-demo">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="popular.html">Popular Places</a>
+        </li>
+        <li>
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    
+
+        <div class="container">
+          <h4 class="center">
+            <span class="blue-text">Photo Gallery </span> 
+          </h4>
+          <div class="row">
+            <div class="col s12 m3">
+              <img id="materialboxed" class="materialboxed responsive-img" src="baguio.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="bohol.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="boracay.jpeg" alt="">
+            </div>
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="coron.jpg" alt="">
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="siargao.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="puerto.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="hundred.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="elnido.jpg" alt="">
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="balesin.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="mtapo.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="batanes.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+              <img class="materialboxed responsive-img" src="cebu.jpg" alt="">
+            </div>
+          </div>
+        </div>
+    
+      <!-- Footer -->
+      <footer class="section blue darken-2 white-text center">
+        <p class="flow-text">TravelPhil &copy; 2021</p>
+      </footer>
+
+      <!-- Jquery CDN -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+      $(document).ready(function(){
+        $('.materialboxed').materialbox();
+      });
+
+      $(document).ready(function(){
+          $('.sidenav').sidenav();
+          });
+    </script>
+</body>
+</html>

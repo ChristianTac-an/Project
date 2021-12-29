@@ -1,0 +1,18 @@
+    .slider .btn {
+        margin-top: 20px;
+    }
+    
+    .section-search input {
+        padding: 5px;
+        font-size: 18px ;
+        width: 90% ;
+        border: #f4f4f4 3px solid ;
+    }
+    
+    .section-follow .fa-4x {
+        margin: 5px 10px;
+    }
+    
+    .section-contact h5 {
+        margin-bottom: 30px;
+    }
